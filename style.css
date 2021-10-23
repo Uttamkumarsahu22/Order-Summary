@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+h1{
+    font-weight: 900;
+    margin: 0.625rem 0;
+}
+.order{
+    max-width: 28.125rem;
+    margin: 1.25rem auto;
+    background-color: #fff;
+    border-radius: 1.25rem;
+}
+.order img{
+    width: 100%;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+.top{
+    width: 67%;
+    margin: 0.625rem auto;
+    text-align: center;
+}
+.top p{
+    color: hsl(224, 23%, 55%);
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.subscription{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: hsl(225, 100%, 94%);
+    margin: 1.25rem auto   ;
+    align-items: center;
+    padding: 0.6254rem;
+    border-radius: 0.625rem;
+}
+.payment{
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    display: block;
+    width: 80%;
+    margin: 1.25rem auto;
+    text-align: center;
+    padding: 0.625rem 0 ;
+    border-radius: 0.625rem;
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
+}
+.cancel{
+    display: block;
+    text-decoration:none;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+.money{
+    color: hsl(224, 23%, 55%);
+}
+@media screen and (max-width: 2828.125rem){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        font-size: 1rem;
+    }
+    .order{
+        width: 27.5rem;
+    }
+    .order img{
+        width: 27.5rem;
+    }
+    .top{
+        width: 80%;
+    }
+    .subscription{
+        padding: 00.6254rem 0.625rem;
+        width: 80%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .subscription img{
+        width: 30%;
+    }
